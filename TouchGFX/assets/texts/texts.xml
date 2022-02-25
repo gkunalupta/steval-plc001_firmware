@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.18.0">
+  <Texts>
+    <Text Id="__SingleUse_TNE7" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">INFO </Translation>
+    </Text>
+    <Text Id="__SingleUse_2VZ5" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">LADDER</Translation>
+    </Text>
+    <Text Id="__SingleUse_QN21" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">IO PLAY</Translation>
+    </Text>
+    <Text Id="__SingleUse_AMZ0" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Component Review</Translation>
+    </Text>
+    <Text Id="__SingleUse_T97K" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_0K3T" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_QP72" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">HOME</Translation>
+    </Text>
+    <Text Id="__SingleUse_0N7Z" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_PUJ2" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_4G5O" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">HOME</Translation>
+    </Text>
+    <Text Id="__SingleUse_DTAA" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_8S9L" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_BNRR" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">HOME</Translation>
+    </Text>
+    <Text Id="__SingleUse_7N0J" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_TURN" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">I/O STATUS</Translation>
+    </Text>
+    <Text Id="__SingleUse_Y6ED" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">I0</Translation>
+    </Text>
+    <Text Id="__SingleUse_PCMQ" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">I1</Translation>
+    </Text>
+    <Text Id="__SingleUse_D65N" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Q0</Translation>
+    </Text>
+    <Text Id="__SingleUse_DTGH" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Q1</Translation>
+    </Text>
+    <Text Id="__SingleUse_J2V8" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">HOME</Translation>
+    </Text>
+    <Text Id="__SingleUse_PV1N" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">SELF TEST</Translation>
+    </Text>
+    <Text Id="__SingleUse_5Q2B" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">HOME</Translation>
+    </Text>
+    <Text Id="ResourceId1" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">0xAA</Translation>
+    </Text>
+    <Text Id="__SingleUse_3AJK" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Q0:0x&lt;****&gt;  </Translation>
+    </Text>
+    <Text Id="__SingleUse_ZS0H" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">00</Translation>
+    </Text>
+    <Text Id="__SingleUse_O7V5" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Q1:0x&lt;****&gt;  </Translation>
+    </Text>
+    <Text Id="__SingleUse_GTIE" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">00</Translation>
+    </Text>
+    <Text Id="__SingleUse_RENN" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">I0:0x&lt;****&gt;  </Translation>
+    </Text>
+    <Text Id="__SingleUse_HT90" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">I1:0x&lt;****&gt;  </Translation>
+    </Text>
+    <Text Id="__SingleUse_8T7C" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">00</Translation>
+    </Text>
+    <Text Id="__SingleUse_F1H9" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">00</Translation>
+    </Text>
+    <Text Id="__SingleUse_KKWC" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">HOME</Translation>
+    </Text>
+    <Text Id="__SingleUse_XVYV" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">TEST : &lt;*****&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_292M" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">SRAM TEST</Translation>
+    </Text>
+    <Text Id="__SingleUse_HZ26" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">TEST : &lt;*****&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_NW51" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">SFLASH TEST</Translation>
+    </Text>
+    <Text Id="__SingleUse_CO4J" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">XXXX</Translation>
+    </Text>
+    <Text Id="__SingleUse_ASLF" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">XXXX</Translation>
+    </Text>
+    <Text Id="__SingleUse_UYBX" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">HOME</Translation>
+    </Text>
+    <Text Id="__SingleUse_ZVV5" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">For Future Implementation</Translation>
+    </Text>
+    <Text Id="__SingleUse_6FQ6" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">TOUCH TEST</Translation>
+    </Text>
+    <Text Id="__SingleUse_Q2VH" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Touch RGB Circle to Test</Translation>
+    </Text>
+    <Text Id="__SingleUse_1XSJ" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">STEVAL-PLC001V1</Translation>
+    </Text>
+    <Text Id="__SingleUse_1BYT" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">BACK</Translation>
+    </Text>
+    <Text Id="__SingleUse_5Q65" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">USER DEFINED</Translation>
+    </Text>
+    <Text Id="__SingleUse_QMCF" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">STM32F746</Translation>
+    </Text>
+    <Text Id="__SingleUse_KSAE" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">CLT01-38SQ7</Translation>
+    </Text>
+    <Text Id="__SingleUse_8EWV" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">CLT03-2Q3</Translation>
+    </Text>
+    <Text Id="__SingleUse_E69I" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">ISO8200AQ</Translation>
+    </Text>
+    <Text Id="__SingleUse_F9LK" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">IPS4260L</Translation>
+    </Text>
+    <Text Id="__SingleUse_3WSN" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">CLT01-38SQ7</Translation>
+    </Text>
+    <Text Id="__SingleUse_9COT" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">CLT03-2Q3</Translation>
+    </Text>
+    <Text Id="__SingleUse_9R1J" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">STM32F746</Translation>
+    </Text>
+    <Text Id="__SingleUse_Y0OT" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">ISO8200AQ</Translation>
+    </Text>
+    <Text Id="__SingleUse_DLV7" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">IPS4260L</Translation>
+    </Text>
+    <Text Id="__SingleUse_2QJW" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">HOME</Translation>
+    </Text>
+    <Text Id="__SingleUse_A7E4" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">HOME</Translation>
+    </Text>
+    <Text Id="__SingleUse_BQN6" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">HOME</Translation>
+    </Text>
+    <Text Id="__SingleUse_FWB4" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">HOME</Translation>
+    </Text>
+    <Text Id="__SingleUse_4YFI" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">HOME</Translation>
+    </Text>
+    <Text Id="__SingleUse_ERFQ" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_MN7N" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">• 2-channel self-powered digital input current limiter&#10;• high-side and low-side compatible, &#10;• reverse plugin compatible&#10;• Direct drive to opto-coupler or 3.3 V LVTTL circuit&#10;• IEC 61000-4-2 level 1</Translation>
+    </Text>
+    <Text Id="__SingleUse_RPE3" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">• High-performance ARM® Cortex®-M7 32-bit RISC core &#10;• MCU operating at up to 216 MHz frequency.&#10;• Chrom ART Graphic Accelerator™.&#10;• single floating-point unit, DSP instructions&#10;• low-power RTC, thirteen general-purpose 16-bit timers&#10;• two 32-bit timers&#10;</Translation>
+    </Text>
+    <Text Id="__SingleUse_NNRN" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">• 8-channel galvanic isolated high-side &#10;   smart power solid state relay &#10;• SPI interface&#10;• Active channel current limitation (OVL) &#10;   and thermal shutdown (OVT)&#10;• Fault and Power Good pins&#10;• TFQFPN32 package&#10;• UL1577 certified &#10;• IEC 61000-4-2, 4-4, -4-5 and IEC 61000-4-8. </Translation>
+    </Text>
+    <Text Id="__SingleUse_M5NC" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">• 4-channel low-side intelligent power switch&#10;• FSW up to 250 kHz&#10;• Each channel is protected for overload or&#10;   short circuit event&#10;• Fault pin for eah channel&#10;• HTTSSOP20 package&#10;• IEC 61131-2.&#10;</Translation>
+    </Text>
+    <Text Id="__SingleUse_7TRS" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">• 8-channel High speed digital input current limiter &#10;• SPI interface including Daisy chain (6.25 MHz)&#10;• 78 mW per input&#10;• 7x7 QFN package&#10;• IEC61000-4-4, IEC61000-4-5</Translation>
+    </Text>
+    <Text Id="__SingleUse_D5DB" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_YUZO" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_FN3L" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_L3KW" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_A0NV" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_LUS1" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_EYR8" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_LDKV" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">INFO</Translation>
+    </Text>
+    <Text Id="__SingleUse_9WMQ" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">FW Ver:1.0.0</Translation>
+    </Text>
+    <Text Id="__SingleUse_K5Z6" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Fault: 0x&lt;****&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_0ZXA" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">BOARD CONFIG</Translation>
+    </Text>
+    <Text Id="__SingleUse_UGCS" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">LOOP BACK TEST</Translation>
+    </Text>
+    <Text Id="__SingleUse_V0CG" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">ENSURE LOOPBACK CONNECTION</Translation>
+    </Text>
+    <Text Id="__SingleUse_G6GT" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">HOME</Translation>
+    </Text>
+    <Text Id="__SingleUse_NL6A" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Fault: 0x&lt;****&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_D0DC" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Fault: 0x&lt;****&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_DHLY" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">00</Translation>
+    </Text>
+    <Text Id="__SingleUse_R3ME" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">00</Translation>
+    </Text>
+    <Text Id="__SingleUse_BQ5W" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">00</Translation>
+    </Text>
+    <Text Id="__SingleUse_6SH8" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">User Defined Code Execution</Translation>
+    </Text>
+    <Text Id="__SingleUse_V8NV" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">HOME</Translation>
+    </Text>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7e" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7e" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7e" />
+  </Typographies>
+</TextDatabase>

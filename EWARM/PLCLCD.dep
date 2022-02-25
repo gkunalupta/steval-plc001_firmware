@@ -1,0 +1,2350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>3348028058</fileChecksum>
+    <configuration>
+        <name>PLCLCD</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_ltdc_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_spi_ex.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\queue.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim_ex.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\tasks.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr.c</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\ApplicationFontProvider.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\CachedFont.cpp</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_spi.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_fmc.c</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Font_verdana_10_4bpp_0.cpp</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\timers.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM7\r0p1\port.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rtc_ex.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM7\r0p1\portasm.s</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\list.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rtc.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_ltdc.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_sdram.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim.c</file>
+            <file>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\croutine.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart.c</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen6_screen\Screen6View.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen7_screen\Screen7Presenter.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen9_screen\Screen9View.cpp</file>
+            <file>$PROJ_DIR$\..\Core\Src\IPS4260.c</file>
+            <file>$PROJ_DIR$\PLCLCD.ipcf</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_ltdc_ex.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen15View.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\STM32DMA.o</file>
+            <file>$PROJ_DIR$\..\Core\Src\ST_PLC_APP.c</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_i2c_ex.o</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen5_screen\Screen5View.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen6_screen\Screen6Presenter.cpp</file>
+            <file>$PROJ_DIR$\..\Core\Inc\ST_PLC_timerapi.h</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen7_screen\Screen7View.cpp</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen2Presenter.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_it.o</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen8_screen\Screen8Presenter.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen8_screen\Screen8View.cpp</file>
+            <file>$PROJ_DIR$\..\Core\Src\ladder.c</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_gpio.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_crc.xcl</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen2_screen\Screen2View.cpp</file>
+            <file>$PROJ_DIR$\..\Core\Src\PLC_timer_api.c</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen5_screen\Screen5Presenter.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen3_screen\Screen3View.cpp</file>
+            <file>$PROJ_DIR$\..\Core\Inc\ladder.h</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen9_screen\Screen9Presenter.cpp</file>
+            <file>$PROJ_DIR$\..\Core\Inc\PLC_timer_api.h</file>
+            <file>$PROJ_DIR$\..\Core\Inc\ST_PLC_APP.h</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen3_screen\Screen3Presenter.cpp</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen11View.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\OSWrappers.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_crc_ex.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\PLC_timer_api.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen9ViewBase.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\gt911.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\port.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_Blue_Check_buttons_Check_Round_mark_active.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_dma2d.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen9View.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen14Presenter.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Table_verdana_20_4bpp.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\TouchGFXHAL.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen14ViewBase.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_spi_ex.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen11ViewBase.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Table_verdana_40_4bpp.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Kerning_verdana_40_4bpp.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen5Presenter.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen10Presenter.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_uart_ex.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen8ViewBase.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_ltdc.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_i2c.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen2Presenter.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_back.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_tim.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_it.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\LanguageGb.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen1View.xcl</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen1_screen\Screen1Presenter.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen15_screen\Screen15View.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen1_screen\Screen1View.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen2_screen\Screen2Presenter.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\images\src\__designer\image_Blue_Check_buttons_Check_mark_pressed.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_greenledoff.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen12_screen\Screen12View.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_RGB_Circ.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\images\src\__designer\image_Blue_Check_buttons_Check_Round_mark_active.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen13_screen\Screen13View.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_st_logo.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_stop.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen10_screen\Screen10Presenter.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_STEVAL-PLC001.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\images\src\__designer\image_Blue_Check_buttons_Check_Round_mark_pressed.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen12_screen\Screen12Presenter.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen14_screen\Screen14Presenter.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_start.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen14_screen\Screen14View.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_greenffled.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\texts\src\TypedTextDatabase.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen11_screen\Screen11Presenter.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen15_screen\Screen15Presenter.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_ladder.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\common\FrontendApplication.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\texts\src\Texts.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\model\Model.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\texts\src\LanguageGb.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen10_screen\Screen10View.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen11_screen\Screen11View.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\gui\src\screen13_screen\Screen13Presenter.cpp</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_pwr_ex.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen11Presenter.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\tasks.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\FrontendApplicationBase.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\FrontendApplicationBase.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\w25xxx.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen1Presenter.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Model.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Font_verdana_20_4bpp_0.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\TouchGFXGPIO.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_rtc_ex.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\OSWrappers.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\list.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\STM32DMA.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen13Presenter.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\startup_stm32f746xx.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\FrontendApplication.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\TouchGFXHAL.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen12Presenter.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\GeneratedFont.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\TouchGFXGeneratedHAL.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\ApplicationFontProvider.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\freertos.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\CachedFont.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\ApplicationFontProvider.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\freertos.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\LanguageGb.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_tim_ex.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Texts.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_rcc_ex.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen9View.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\portasm.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Font_verdana_10_4bpp_0.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\CLT03.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_Blue_Check_buttons_Check_mark_normal.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen10View.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\CLT01.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\TouchGFXGPIO.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\TypedTextDatabase.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\event_groups.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\app_touchgfx.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen9Presenter.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_pwr_ex.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen6Presenter.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_sdram.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_dma2d.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\PLCLCD.pbd</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen12View.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen3ViewBase.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen5View.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Font_verdana_10_4bpp_4.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Table_verdana_40_4bpp.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\TouchGFXConfiguration.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\IPS4260.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Font_verdana_40_4bpp_0.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\IPS4260.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_crc.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\CLT03.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen2ViewBase.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen5ViewBase.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\main.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stream_buffer.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Font_verdana_10_4bpp_4.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen3View.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Kerning_verdana_20_4bpp.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen1ViewBase.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\system_stm32f7xx.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_start.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen2View.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_spi.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_cortex.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\ST_PLC_APP.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen3Presenter.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\queue.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen7ViewBase.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Kerning_verdana_10_4bpp.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Font_verdana_40_4bpp_0.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_i2c.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen6ViewBase.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen2View.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\ladder.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen1ViewBase.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_Blue_Check_buttons_Check_mark_pressed.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen15View.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_rcc.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\TouchGFXConfiguration.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen13View.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\gt911.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_uart.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen10Presenter.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\FontCache.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen12ViewBase.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen11Presenter.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_spi.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen7View.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen1Presenter.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_stop.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_start.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen6View.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_timebase_tim.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_pwr.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_flash.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen14View.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen13View.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Table_verdana_20_4bpp.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen8View.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen6View.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_sdram.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen12View.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_STEVAL-PLC001.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen15Presenter.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\FontCache.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_st_logo.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Exe\STSW_PLC001.hex</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_flash_ex.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen7Presenter.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Font_verdana_20_4bpp_0.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen13Presenter.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_greenledoff.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen2ViewBase.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_dma_ex.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen9ViewBase.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Texts.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\FrontendApplication.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen14ViewBase.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_spi_ex.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_STEVAL-PLC001.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_i2c_ex.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_dma.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\ISO8200.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen13ViewBase.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\timers.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_Blue_Check_buttons_Check_Round_mark_active.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_RGB_Circ.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen13ViewBase.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_greenledoff.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\heap_4.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_rtc.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\cmsis_os.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\cmsis_os.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\w25xxx.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_cortex.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_crc_ex.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\STM32TouchController.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_dma_ex.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen8ViewBase.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_flash.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Model.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\system_stm32f7xx.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen9Presenter.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen14View.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_Blue_Check_buttons_Check_mark_active.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen12ViewBase.o</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\UnmappedDataFont.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\common\FrontendApplicationBase.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Font_verdana_10_4bpp_4.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen10_screen\Screen10ViewBase.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen2_screen\Screen2ViewBase.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\images\src\BitmapDatabase.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_back.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Table_verdana_40_4bpp.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen11_screen\Screen11ViewBase.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen8_screen\Screen8ViewBase.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen5_screen\Screen5ViewBase.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\images\src\__designer\image_Blue_Check_buttons_Check_mark_active.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\GeneratedFont.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Kerning_verdana_20_4bpp.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Font_verdana_20_4bpp_0.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Table_verdana_20_4bpp.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen12_screen\Screen12ViewBase.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\FontCache.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen14_screen\Screen14ViewBase.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen15_screen\Screen15ViewBase.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen1_screen\Screen1ViewBase.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen6_screen\Screen6ViewBase.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen9_screen\Screen9ViewBase.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\images\src\__designer\image_Blue_Check_buttons_Check_mark_normal.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen7_screen\Screen7ViewBase.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen13_screen\Screen13ViewBase.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Kerning_verdana_10_4bpp.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen3_screen\Screen3ViewBase.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Font_verdana_40_4bpp_0.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Kerning_verdana_40_4bpp.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Table_verdana_10_4bpp.cpp</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\ISO8200.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen12Presenter.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Kerning_verdana_20_4bpp.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen10ViewBase.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_Blue_Check_buttons_Check_Round_mark_pressed.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\STEVALPLC.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen5View.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen10View.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\timers.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Table_verdana_10_4bpp.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_tim_ex.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen1View.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\heap_4.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen6ViewBase.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Table_verdana_10_4bpp.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_msp.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_timebase_tim.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen6Presenter.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_rcc.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_Blue_Check_buttons_Check_mark_normal.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_dsi.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_tim.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_dma.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_Blue_Check_buttons_Check_mark_active.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Exe\PLCLCD.out</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_rtc_ex.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_dsi.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen8Presenter.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\croutine.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\CT_I2C.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen7Presenter.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_crc_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_gpio.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_crc.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma2d.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dsi.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_exti.c</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\PLC_timer_api.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_ladder.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_flash_ex.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\TypedTextDatabase.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\croutine.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen3Presenter.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\STEVALPLC.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_pwr.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen5Presenter.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Font_verdana_10_4bpp_0.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_exti.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\list.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Kerning_verdana_40_4bpp.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_ltdc.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\port.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_uart_ex.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stream_buffer.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen8View.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen11ViewBase.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen15ViewBase.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\STM32TouchController.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_back.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\GeneratedFont.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\BitmapDatabase.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\TouchGFXGeneratedHAL.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen15ViewBase.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen11View.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_RGB_Circ.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_ladder.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\ST_PLC_APP.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_greenffled.o</file>
+            <file>$PROJ_DIR$\..\Core\Src\gt911.cpp</file>
+            <file>$PROJ_DIR$\..\Core\Src\stm32f7xx_it.c</file>
+            <file>$PROJ_DIR$\startup_stm32f746xx.s</file>
+            <file>$PROJ_DIR$\..\Core\Src\main.c</file>
+            <file>$PROJ_DIR$\..\TouchGFX\target\STM32TouchController.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\App\app_touchgfx.c</file>
+            <file>$PROJ_DIR$\..\Core\Inc\CLT01.h</file>
+            <file>$PROJ_DIR$\..\Core\Src\stm32f7xx_hal_timebase_tim.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\CT_I2C.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\target\generated\STM32DMA.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\target\TouchGFXGPIO.cpp</file>
+            <file>$PROJ_DIR$\..\Core\Src\CLT01.c</file>
+            <file>$PROJ_DIR$\..\Core\Inc\main.h</file>
+            <file>$PROJ_DIR$\..\Core\Src\STEVALPLC.c</file>
+            <file>$PROJ_DIR$\..\Drivers\BSP\Components\w25xxx\w25xxx.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\system_stm32f7xx.c</file>
+            <file>$PROJ_DIR$\..\TouchGFX\target\generated\OSWrappers.cpp</file>
+            <file>$PROJ_DIR$\..\Core\Inc\CLT03.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\stm32f7xx_hal_msp.c</file>
+            <file>$PROJ_DIR$\..\TouchGFX\target\generated\TouchGFXGeneratedHAL.cpp</file>
+            <file>$PROJ_DIR$\..\TouchGFX\target\generated\TouchGFXConfiguration.cpp</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cortex.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\CLT03.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\ISO8200.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\freertos.c</file>
+            <file>$PROJ_DIR$\..\TouchGFX\target\TouchGFXHAL.cpp</file>
+            <file>$PROJ_DIR$\..\Core\Inc\ISO8200.h</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_rcc_ex.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_Blue_Check_buttons_Check_mark_pressed.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen7View.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_msp.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen3View.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\event_groups.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen15Presenter.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_rtc.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen5ViewBase.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\UnmappedDataFont.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_ll_fmc.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen7ViewBase.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_st_logo.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\BitmapDatabase.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen10ViewBase.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_ll_fmc.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\CT_I2C.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\app_touchgfx.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen3ViewBase.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_uart.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen8Presenter.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Kerning_verdana_10_4bpp.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_Blue_Check_buttons_Check_Round_mark_pressed.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\ladder.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_greenffled.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\queue.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_exti.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\UnmappedDataFont.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\tasks.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\CLT01.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\Screen14Presenter.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_ltdc_ex.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\stm32f7xx_hal_gpio.xcl</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\CachedFont.o</file>
+            <file>$PROJ_DIR$\PLCLCD\Obj\image_stop.o</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_ltdc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 441</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_spi_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 250</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 321</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 261</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 367</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 185</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 197</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 435</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 327</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 208</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 166</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 123</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 151</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 319</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 264</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 263</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 438</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 358</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 225</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\ApplicationFontProvider.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 145</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\CachedFont.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 443</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 147</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 193</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 218</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 366</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_fmc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 420</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 425</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Font_verdana_10_4bpp_0.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 156</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 360</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\timers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 256</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 317</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 163</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 415</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM7\r0p1\port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 365</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rtc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 334</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 134</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM7\r0p1\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 155</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 362</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 136</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 252</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 262</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 417</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 410</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 153</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_ltdc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 364</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_sdram.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 232</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 168</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 330</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\croutine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 355</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 337</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 212</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 429</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen6_screen\Screen6View.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 223</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 231</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen7_screen\Screen7Presenter.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 339</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 240</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen9_screen\Screen9View.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 154</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\IPS4260.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 177</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 179</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\ST_PLC_APP.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 195</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 380</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen5_screen\Screen5View.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 173</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 315</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen6_screen\Screen6Presenter.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 326</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 167</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen7_screen\Screen7View.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 412</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 219</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen8_screen\Screen8Presenter.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 430</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 336</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen8_screen\Screen8View.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 368</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 230</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\ladder.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 204</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 433</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen2_screen\Screen2View.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 203</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 192</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\PLC_timer_api.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 351</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen5_screen\Screen5Presenter.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 359</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen3_screen\Screen3View.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 187</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 414</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen9_screen\Screen9Presenter.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 274</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 165</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen3_screen\Screen3Presenter.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 356</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 196</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen1_screen\Screen1Presenter.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 220</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen15_screen\Screen15View.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 207</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen1_screen\Screen1View.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 320</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen2_screen\Screen2Presenter.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\images\src\__designer\image_Blue_Check_buttons_Check_mark_pressed.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 411</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 206</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_greenledoff.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 260</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 243</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen12_screen\Screen12View.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 233</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 171</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_RGB_Circ.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 378</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 258</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\images\src\__designer\image_Blue_Check_buttons_Check_Round_mark_active.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 257</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen13_screen\Screen13View.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 228</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 210</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_st_logo.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 422</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 237</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_stop.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 444</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 221</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen10_screen\Screen10Presenter.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 213</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_STEVAL-PLC001.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 251</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 234</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\images\src\__designer\image_Blue_Check_buttons_Check_Round_mark_pressed.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 313</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 432</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen12_screen\Screen12Presenter.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 142</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 310</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen14_screen\Screen14Presenter.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 440</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_start.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 222</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 191</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen14_screen\Screen14View.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 227</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 275</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_greenffled.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 381</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 434</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\texts\src\TypedTextDatabase.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 354</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen11_screen\Screen11Presenter.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 217</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen15_screen\Screen15Presenter.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 235</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 416</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_ladder.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 352</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 379</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\common\FrontendApplication.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 248</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 140</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\texts\src\Texts.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 247</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 152</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\model\Model.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 272</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 131</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\texts\src\LanguageGb.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 150</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen10_screen\Screen10View.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 316</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 159</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen11_screen\Screen11View.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 377</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\gui\src\screen13_screen\Screen13Presenter.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 138</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 333</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\UnmappedDataFont.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 437</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 419</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\common\FrontendApplicationBase.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 128</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Font_verdana_10_4bpp_4.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 174</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 186</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen10_screen\Screen10ViewBase.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 424</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 312</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen2_screen\Screen2ViewBase.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 182</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 244</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\images\src\BitmapDatabase.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 374</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 423</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\images\src\image_back.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 372</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Table_verdana_40_4bpp.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 175</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen11_screen\Screen11ViewBase.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 369</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen8_screen\Screen8ViewBase.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 270</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen5_screen\Screen5ViewBase.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 183</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 418</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\images\src\__designer\image_Blue_Check_buttons_Check_mark_active.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 276</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 332</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\GeneratedFont.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 373</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Kerning_verdana_20_4bpp.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 188</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 311</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Font_verdana_20_4bpp_0.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 241</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 132</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Table_verdana_20_4bpp.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 229</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen12_screen\Screen12ViewBase.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 277</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 216</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\FontCache.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 236</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen14_screen\Screen14ViewBase.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 249</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen15_screen\Screen15ViewBase.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 370</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 376</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen1_screen\Screen1ViewBase.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 189</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 205</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen6_screen\Screen6ViewBase.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 202</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 322</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen9_screen\Screen9ViewBase.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 246</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\images\src\__designer\image_Blue_Check_buttons_Check_mark_normal.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 158</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 328</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen7_screen\Screen7ViewBase.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 198</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 421</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen13_screen\Screen13ViewBase.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 259</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 255</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Kerning_verdana_10_4bpp.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 431</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 199</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\gui_generated\src\screen3_screen\Screen3ViewBase.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 428</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 172</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Font_verdana_40_4bpp_0.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 178</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 200</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Kerning_verdana_40_4bpp.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 363</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\generated\fonts\src\Table_verdana_10_4bpp.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 318</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 323</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\PLCLCD\Exe\PLCLCD.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 238</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_crc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 267</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 271</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 226</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 353</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 239</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 253</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 331</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 269</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 245</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 442</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 201</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 180</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma2d.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 169</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dsi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 335</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 329</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 361</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 436</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\gt911.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 211</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\stm32f7xx_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_stm32f746xx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 139</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 184</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 125</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\target\STM32TouchController.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 371</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 268</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\App\app_touchgfx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 164</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 427</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\stm32f7xx_hal_timebase_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 325</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 224</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\CT_I2C.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 338</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 426</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\target\generated\STM32DMA.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 137</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\target\TouchGFXGPIO.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 161</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 133</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\CLT01.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 160</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 439</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\STEVALPLC.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 357</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 314</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\BSP\Components\w25xxx\w25xxx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 265</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 129</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\system_stm32f7xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 190</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 273</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\target\generated\OSWrappers.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 135</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 214</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\stm32f7xx_hal_msp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 413</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 324</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\target\generated\TouchGFXGeneratedHAL.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 375</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 144</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\target\generated\TouchGFXConfiguration.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 176</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 209</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cortex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 266</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 194</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\CLT03.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 181</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\ISO8200.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 254</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 309</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\freertos.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 149</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 146</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TouchGFX\target\TouchGFXHAL.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+</project>

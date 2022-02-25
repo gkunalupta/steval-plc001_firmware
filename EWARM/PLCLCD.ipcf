@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<iarProjectConnection name="TouchGFX" oneShot="false">
+  <includePath>
+    <path>$PROJ_DIR$/../Middlewares/ST/touchgfx/framework/include</path>
+    <path>$PROJ_DIR$/../TouchGFX/generated/fonts/include</path>
+    <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/include</path>
+    <path>$PROJ_DIR$/../TouchGFX/generated/images/include</path>
+    <path>$PROJ_DIR$/../TouchGFX/generated/texts/include</path>
+    <path>$PROJ_DIR$/../TouchGFX/gui/include</path>
+  </includePath>
+  <asmIncludePath></asmIncludePath>
+  <defines>
+    <define>USE_BPP=16</define>
+  </defines>
+  <asmDefines></asmDefines>
+  <files>
+    <group name="gui">
+      <group name="common">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/common/FrontendApplication.cpp</path>
+      </group>
+      <group name="model">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/model/Model.cpp</path>
+      </group>
+      <group name="screen10_screen">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen10_screen/Screen10Presenter.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen10_screen/Screen10View.cpp</path>
+      </group>
+      <group name="screen11_screen">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen11_screen/Screen11Presenter.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen11_screen/Screen11View.cpp</path>
+      </group>
+      <group name="screen12_screen">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen12_screen/Screen12Presenter.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen12_screen/Screen12View.cpp</path>
+      </group>
+      <group name="screen13_screen">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen13_screen/Screen13Presenter.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen13_screen/Screen13View.cpp</path>
+      </group>
+      <group name="screen14_screen">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen14_screen/Screen14Presenter.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen14_screen/Screen14View.cpp</path>
+      </group>
+      <group name="screen15_screen">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen15_screen/Screen15Presenter.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen15_screen/Screen15View.cpp</path>
+      </group>
+      <group name="screen1_screen">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen1_screen/Screen1Presenter.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen1_screen/Screen1View.cpp</path>
+      </group>
+      <group name="screen2_screen">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen2_screen/Screen2Presenter.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen2_screen/Screen2View.cpp</path>
+      </group>
+      <group name="screen3_screen">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen3_screen/Screen3Presenter.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen3_screen/Screen3View.cpp</path>
+      </group>
+      <group name="screen5_screen">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen5_screen/Screen5Presenter.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen5_screen/Screen5View.cpp</path>
+      </group>
+      <group name="screen6_screen">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen6_screen/Screen6Presenter.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen6_screen/Screen6View.cpp</path>
+      </group>
+      <group name="screen7_screen">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen7_screen/Screen7Presenter.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen7_screen/Screen7View.cpp</path>
+      </group>
+      <group name="screen8_screen">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen8_screen/Screen8Presenter.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen8_screen/Screen8View.cpp</path>
+      </group>
+      <group name="screen9_screen">
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen9_screen/Screen9Presenter.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/gui/src/screen9_screen/Screen9View.cpp</path>
+      </group>
+    </group>
+    <group name="generated">
+      <group name="fonts">
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/ApplicationFontProvider.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/CachedFont.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/Font_verdana_10_4bpp_0.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/Font_verdana_10_4bpp_4.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/Font_verdana_20_4bpp_0.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/Font_verdana_40_4bpp_0.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/FontCache.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/GeneratedFont.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/Kerning_verdana_10_4bpp.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/Kerning_verdana_20_4bpp.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/Kerning_verdana_40_4bpp.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/Table_verdana_10_4bpp.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/Table_verdana_20_4bpp.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/Table_verdana_40_4bpp.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/fonts/src/UnmappedDataFont.cpp</path>
+      </group>
+      <group name="gui_generated">
+        <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/src/screen10_screen/Screen10ViewBase.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/src/screen11_screen/Screen11ViewBase.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/src/screen12_screen/Screen12ViewBase.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/src/screen13_screen/Screen13ViewBase.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/src/screen14_screen/Screen14ViewBase.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/src/screen15_screen/Screen15ViewBase.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/src/screen1_screen/Screen1ViewBase.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/src/screen2_screen/Screen2ViewBase.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/src/screen3_screen/Screen3ViewBase.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/src/screen5_screen/Screen5ViewBase.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/src/screen6_screen/Screen6ViewBase.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/src/screen7_screen/Screen7ViewBase.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/src/screen8_screen/Screen8ViewBase.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/gui_generated/src/screen9_screen/Screen9ViewBase.cpp</path>
+      </group>
+      <group name="images">
+        <path>$PROJ_DIR$/../TouchGFX/generated/images/src/__designer/image_Blue_Check_buttons_Check_mark_active.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/images/src/__designer/image_Blue_Check_buttons_Check_mark_normal.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/images/src/__designer/image_Blue_Check_buttons_Check_mark_pressed.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/images/src/__designer/image_Blue_Check_buttons_Check_Round_mark_active.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/images/src/__designer/image_Blue_Check_buttons_Check_Round_mark_pressed.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/images/src/BitmapDatabase.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/images/src/image_back.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/images/src/image_greenffled.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/images/src/image_greenledoff.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/images/src/image_ladder.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/images/src/image_RGB_Circ.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/images/src/image_st_logo.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/images/src/image_start.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/images/src/image_STEVAL-PLC001.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/images/src/image_stop.cpp</path>
+      </group>
+      <group name="texts">
+        <path>$PROJ_DIR$/../TouchGFX/generated/texts/src/LanguageGb.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/texts/src/Texts.cpp</path>
+        <path>$PROJ_DIR$/../TouchGFX/generated/texts/src/TypedTextDatabase.cpp</path>
+      </group>
+    </group>
+    <group name="Lib">
+      <path>$PROJ_DIR$/../Middlewares/ST/touchgfx/lib/core/cortex_m7/IAR8.x/touchgfx_core.a</path>
+    </group>
+  </files>
+</iarProjectConnection>

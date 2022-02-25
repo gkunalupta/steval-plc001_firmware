@@ -1,0 +1,3755 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 320,
+            "Height": 240,
+            "Filename": "STEVAL-PLC001.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 260,
+            "Y": 202,
+            "Width": 50,
+            "Height": 28,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "TextId": "__SingleUse_7N0J",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 28,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"STEVALPLC.h\"",
+              "Code": "ST_PLC_Reset_HOME_Button_Flag();"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "ST_PLC_Select_None();"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "action1"
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 146,
+            "Y": 122,
+            "Width": 29,
+            "Height": 13,
+            "TextId": "__SingleUse_TNE7",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 14,
+              "Green": 230,
+              "Blue": 50
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 16,
+            "Y": 189,
+            "Width": 41,
+            "Height": 13,
+            "TextId": "__SingleUse_2VZ5",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 14,
+              "Green": 230,
+              "Blue": 226
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "X": 17,
+            "Y": 122,
+            "Width": 40,
+            "Height": 13,
+            "TextId": "__SingleUse_QN21",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 230,
+              "Green": 201,
+              "Blue": 14
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButton1",
+            "X": 138,
+            "Y": 76,
+            "Width": 44,
+            "Height": 44,
+            "FileNameSelected": "__designer\\Blue_Check_buttons_Check_mark_active.png",
+            "FileNameSelectedPressed": "__designer\\Blue_Check_buttons_Check_mark_normal.png",
+            "FileNameUnselected": "__designer\\Blue_Check_buttons_Check_mark_normal.png",
+            "FileNameUnselectedPressed": "__designer\\Blue_Check_buttons_Check_mark_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButton2",
+            "X": 17,
+            "Y": 76,
+            "Width": 44,
+            "Height": 44,
+            "FileNameSelected": "__designer\\Blue_Check_buttons_Check_mark_active.png",
+            "FileNameSelectedPressed": "__designer\\Blue_Check_buttons_Check_mark_normal.png",
+            "FileNameUnselected": "__designer\\Blue_Check_buttons_Check_mark_normal.png",
+            "FileNameUnselectedPressed": "__designer\\Blue_Check_buttons_Check_mark_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButton3",
+            "X": 16,
+            "Y": 142,
+            "Width": 44,
+            "Height": 44,
+            "FileNameSelected": "__designer\\Blue_Check_buttons_Check_mark_active.png",
+            "FileNameSelectedPressed": "__designer\\Blue_Check_buttons_Check_mark_normal.png",
+            "FileNameUnselected": "__designer\\Blue_Check_buttons_Check_mark_normal.png",
+            "FileNameUnselectedPressed": "__designer\\Blue_Check_buttons_Check_mark_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 70,
+            "Y": 210,
+            "Width": 25,
+            "Height": 25,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "TextId": "__SingleUse_T97K",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 25,
+                "Height": 25,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton2",
+            "X": 209,
+            "Y": 208,
+            "Width": 27,
+            "Height": 30,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "TextId": "__SingleUse_0K3T",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 27,
+                "Height": 30,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton3",
+            "X": 114,
+            "Y": 208,
+            "Width": 80,
+            "Height": 30,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "TextId": "__SingleUse_QP72",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 80,
+                "Height": 30,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButton4",
+            "X": 266,
+            "Y": 142,
+            "Width": 44,
+            "Height": 44,
+            "FileNameSelected": "__designer\\Blue_Check_buttons_Check_mark_active.png",
+            "FileNameSelectedPressed": "__designer\\Blue_Check_buttons_Check_mark_normal.png",
+            "FileNameUnselected": "__designer\\Blue_Check_buttons_Check_mark_normal.png",
+            "FileNameUnselectedPressed": "__designer\\Blue_Check_buttons_Check_mark_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5",
+            "X": 262,
+            "Y": 189,
+            "Width": 53,
+            "Height": 13,
+            "TextId": "__SingleUse_PV1N",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 204,
+              "Green": 217,
+              "Blue": 222
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea6",
+            "X": 101,
+            "Y": 18,
+            "Width": 187,
+            "Height": 25,
+            "TextId": "__SingleUse_1XSJ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 211,
+              "Green": 213,
+              "Blue": 242
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButton5",
+            "X": 138,
+            "Y": 142,
+            "Width": 44,
+            "Height": 44,
+            "FileNameSelected": "__designer\\Blue_Check_buttons_Check_mark_active.png",
+            "FileNameSelectedPressed": "__designer\\Blue_Check_buttons_Check_mark_normal.png",
+            "FileNameUnselected": "__designer\\Blue_Check_buttons_Check_mark_normal.png",
+            "FileNameUnselectedPressed": "__designer\\Blue_Check_buttons_Check_mark_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea7",
+            "X": 128,
+            "Y": 189,
+            "Width": 77,
+            "Height": 13,
+            "TextId": "__SingleUse_5Q65",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 201,
+              "Green": 54,
+              "Blue": 165
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 79,
+            "Height": 60,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "Width": 95,
+            "Height": 76,
+            "Filename": "st_logo.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea8",
+            "X": 243,
+            "Y": 47,
+            "Width": 67,
+            "Height": 13,
+            "TextId": "__SingleUse_9WMQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 12,
+              "Green": 245,
+              "Blue": 24
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButton6",
+            "X": 262,
+            "Y": 76,
+            "Width": 44,
+            "Height": 44,
+            "FileNameSelected": "__designer\\Blue_Check_buttons_Check_Round_mark_active.png",
+            "FileNameSelectedPressed": "__designer\\Blue_Check_buttons_Check_Round_mark_pressed.png",
+            "FileNameUnselected": "__designer\\Blue_Check_buttons_Check_Round_mark_pressed.png",
+            "FileNameUnselectedPressed": "__designer\\Blue_Check_buttons_Check_Round_mark_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1",
+            "X": 236,
+            "Y": 122,
+            "Width": 80,
+            "Height": 13,
+            "TextId": "__SingleUse_0ZXA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 14,
+              "Green": 230,
+              "Blue": 50
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen3"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton3"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButton2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen5"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton3"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "",
+              "Code": "ST_PLC_Select_None();\r\nResetIOPlayFlag();\r\nResetSelfTestFlag();"
+            }
+          },
+          {
+            "InteractionName": "Interaction7",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButton4"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen6"
+            }
+          },
+          {
+            "InteractionName": "Interaction8",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton3"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"STEVALPLC.h\"",
+              "Code": "ST_PLC_Set_HOME_Button_Actions();"
+            }
+          },
+          {
+            "InteractionName": "Interaction9",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton2"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "ST_PLC_Reset_HOME_Button_Flag();"
+            }
+          },
+          {
+            "InteractionName": "Interaction10",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "ST_PLC_Reset_HOME_Button_Flag();"
+            }
+          },
+          {
+            "InteractionName": "Interaction11",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButton3"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen14"
+            }
+          },
+          {
+            "InteractionName": "Interaction12",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButton5"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen15"
+            }
+          },
+          {
+            "InteractionName": "Interaction13",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen3"
+            }
+          },
+          {
+            "InteractionName": "Interaction14",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButton6"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen8"
+            }
+          },
+          {
+            "InteractionName": "Interaction16",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButton1"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "ST_PLC_Select_PLC_Info();"
+            }
+          },
+          {
+            "InteractionName": "Interaction17",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButton6"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "ST_PLC_Select_BoardConfig();"
+            }
+          },
+          {
+            "InteractionName": "Interaction18",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButton3"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "ST_PLC_Select_LadderLogic();"
+            }
+          },
+          {
+            "InteractionName": "Interaction19",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButton5"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "ST_PLC_Select_UserDefined();"
+            }
+          },
+          {
+            "InteractionName": "Interaction20",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButton2"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"STEVALPLC.h\"",
+              "Code": "SetIOPlayFlag();\r\nResetSelfTestFlag();"
+            }
+          },
+          {
+            "InteractionName": "Interaction21",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButton4"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"STEVALPLC.h\"",
+              "Code": "SetSelfTestFlag();\r\nResetIOPlayFlag();"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen3",
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 176,
+            "Y": 7,
+            "Width": 97,
+            "Height": 13,
+            "TextId": "__SingleUse_AMZ0",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 50,
+            "Y": 206,
+            "Width": 36,
+            "Height": 31,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "TextId": "__SingleUse_PUJ2",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 36,
+                "Height": 31,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton2",
+            "X": 224,
+            "Y": 206,
+            "Width": 32,
+            "Height": 31,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "TextId": "__SingleUse_0N7Z",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 32,
+                "Height": 31,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton3",
+            "X": 102,
+            "Y": 206,
+            "Width": 106,
+            "Height": 31,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "TextId": "__SingleUse_4G5O",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 106,
+                "Height": 31,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton4",
+            "X": 17,
+            "Y": 20,
+            "Width": 102,
+            "Height": 42,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 102,
+                "Height": 42,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton5",
+            "X": 190,
+            "Y": 20,
+            "Width": 112,
+            "Height": 42,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 112,
+                "Height": 42,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton6",
+            "X": 86,
+            "Y": 85,
+            "Width": 122,
+            "Height": 44,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 122,
+                "Height": 44,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton7",
+            "X": 17,
+            "Y": 142,
+            "Width": 102,
+            "Height": 43,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 102,
+                "Height": 43,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton8",
+            "X": 190,
+            "Y": 142,
+            "Width": 112,
+            "Height": 43,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 112,
+                "Height": 43,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 118,
+            "Y": 101,
+            "Width": 59,
+            "Height": 13,
+            "TextId": "__SingleUse_QMCF",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 230,
+              "Green": 236,
+              "Blue": 237
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 34,
+            "Y": 35,
+            "Width": 69,
+            "Height": 13,
+            "TextId": "__SingleUse_KSAE",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 230,
+              "Green": 236,
+              "Blue": 237
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "X": 217,
+            "Y": 35,
+            "Width": 56,
+            "Height": 13,
+            "TextId": "__SingleUse_8EWV",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 230,
+              "Green": 236,
+              "Blue": 237
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5",
+            "X": 39,
+            "Y": 157,
+            "Width": 59,
+            "Height": 13,
+            "TextId": "__SingleUse_E69I",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 230,
+              "Green": 236,
+              "Blue": 237
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea6",
+            "X": 222,
+            "Y": 157,
+            "Width": 48,
+            "Height": 13,
+            "TextId": "__SingleUse_F9LK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 230,
+              "Green": 236,
+              "Blue": 237
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen5"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton3"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton3"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "",
+              "Code": "ST_PLC_Select_None();"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton3"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"STEVALPLC.h\"",
+              "Code": "ST_PLC_Set_HOME_Button_Actions();"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "ST_PLC_Reset_HOME_Button_Flag();"
+            }
+          },
+          {
+            "InteractionName": "Interaction7",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton2"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "ST_PLC_Reset_HOME_Button_Flag();"
+            }
+          },
+          {
+            "InteractionName": "Interaction8",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton4"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen9"
+            }
+          },
+          {
+            "InteractionName": "Interaction9",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton5"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen10"
+            }
+          },
+          {
+            "InteractionName": "Interaction10",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton6"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen11"
+            }
+          },
+          {
+            "InteractionName": "Interaction11",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton7"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen12"
+            }
+          },
+          {
+            "InteractionName": "Interaction12",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton8"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen13"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen5",
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 91,
+            "Y": 95,
+            "Width": 118,
+            "Height": 25,
+            "TextId": "__SingleUse_TURN",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 57,
+              "Green": 194,
+              "Blue": 24
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "Y": 32,
+            "Width": 21,
+            "Height": 25,
+            "TextId": "__SingleUse_Y6ED",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 27,
+              "Green": 228,
+              "Blue": 207
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 229,
+            "Y": 32,
+            "Width": 21,
+            "Height": 25,
+            "TextId": "__SingleUse_PCMQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 27,
+              "Green": 228,
+              "Blue": 207
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "Y": 171,
+            "Width": 29,
+            "Height": 25,
+            "TextId": "__SingleUse_D65N",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 27,
+              "Green": 228,
+              "Blue": 207
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5",
+            "X": 222,
+            "Y": 171,
+            "Width": 29,
+            "Height": 25,
+            "TextId": "__SingleUse_DTGH",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 27,
+              "Green": 228,
+              "Blue": 207
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1",
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png",
+            "Clickable": true
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton2",
+            "X": 25,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton3",
+            "X": 50,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton4",
+            "X": 75,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton5",
+            "X": 100,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton6",
+            "X": 125,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton7",
+            "X": 150,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton8",
+            "X": 175,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton9",
+            "X": 225,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton10",
+            "X": 250,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton11",
+            "X": 275,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton12",
+            "X": 300,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton13",
+            "Y": 215,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton14",
+            "X": 25,
+            "Y": 215,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton15",
+            "X": 50,
+            "Y": 215,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton16",
+            "X": 75,
+            "Y": 215,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton17",
+            "X": 100,
+            "Y": 215,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton18",
+            "X": 125,
+            "Y": 215,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton19",
+            "X": 150,
+            "Y": 215,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton20",
+            "X": 175,
+            "Y": 215,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton21",
+            "X": 225,
+            "Y": 215,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton22",
+            "X": 250,
+            "Y": 215,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton23",
+            "X": 275,
+            "Y": 215,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton24",
+            "X": 300,
+            "Y": 215,
+            "Width": 20,
+            "Height": 25,
+            "Pressed": "greenffled.png",
+            "Released": "greenffled.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton25",
+            "X": 120,
+            "Y": 132,
+            "Width": 80,
+            "Height": 33,
+            "Pressed": "stop.png",
+            "Released": "start.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 104,
+            "Y": 171,
+            "Width": 92,
+            "Height": 25,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "TextId": "__SingleUse_J2V8",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 92,
+                "Height": 25,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea7",
+            "X": 5,
+            "Y": 132,
+            "Width": 101,
+            "Height": 25,
+            "TextId": "__SingleUse_3AJK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 48,
+              "Green": 117,
+              "Blue": 8
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_ZS0H",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea8",
+            "X": 222,
+            "Y": 136,
+            "Width": 101,
+            "Height": 25,
+            "TextId": "__SingleUse_O7V5",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 48,
+              "Green": 117,
+              "Blue": 8
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_GTIE",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea9",
+            "X": 10,
+            "Y": 57,
+            "Width": 94,
+            "Height": 25,
+            "TextId": "__SingleUse_RENN",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 48,
+              "Green": 117,
+              "Blue": 8
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_8T7C",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea10",
+            "X": 229,
+            "Y": 57,
+            "Width": 94,
+            "Height": 25,
+            "TextId": "__SingleUse_HT90",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 48,
+              "Green": 117,
+              "Blue": 8
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_F1H9",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea11",
+            "X": 40,
+            "Y": 38,
+            "Width": 57,
+            "Height": 13,
+            "TextId": "__SingleUse_D0DC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 10,
+              "Green": 240,
+              "Blue": 236
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_DHLY",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea11_1",
+            "X": 40,
+            "Y": 183,
+            "Width": 57,
+            "Height": 13,
+            "TextId": "__SingleUse_K5Z6",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 10,
+              "Green": 240,
+              "Blue": 236
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_R3ME",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea11_1_1",
+            "X": 256,
+            "Y": 183,
+            "Width": 57,
+            "Height": 13,
+            "TextId": "__SingleUse_NL6A",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 10,
+              "Green": 240,
+              "Blue": 236
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_BQ5W",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "",
+              "Code": "ST_PLC_Select_None();\r\nST_PLC_Set_HOME_Button_Actions();"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton25"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "",
+              "Code": "ST_PLC_Toggle_UseCase();\r\n\r\nif(ST_PLC_Get_Current_State() == ST_PLC_DODI_Selftest)\r\n{\r\ntoggleButton25.setVisible(false);\r\ntoggleButton25.invalidate();\r\n}\r\nelse\r\n{\r\ntoggleButton25.setVisible(true);\r\ntoggleButton25.invalidate();\r\n}"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"STEVALPLC.h\"",
+              "Code": "ST_PLC_Reset_HOME_Button_Flag();\r\nResetToggleFlag();"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen6",
+        "Components": [
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 216,
+            "Y": 198,
+            "Width": 98,
+            "Height": 32,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 98,
+                "Height": 32,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 235,
+            "Y": 202,
+            "Width": 60,
+            "Height": 25,
+            "TextId": "__SingleUse_5Q2B",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton2",
+            "X": 1,
+            "Width": 95,
+            "Height": 24,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 95,
+                "Height": 24,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 120,
+            "Y": 41,
+            "Width": 65,
+            "Height": 13,
+            "TextId": "__SingleUse_XVYV",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 19,
+              "Green": 202,
+              "Blue": 15
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_ASLF",
+              "UseBuffer": true,
+              "BufferSize": 30
+            }
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton3",
+            "X": 1,
+            "Y": 36,
+            "Width": 95,
+            "Height": 23,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 95,
+                "Height": 23,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "X": 14,
+            "Y": 41,
+            "Width": 58,
+            "Height": 13,
+            "TextId": "__SingleUse_292M",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5",
+            "X": 120,
+            "Y": 6,
+            "Width": 65,
+            "Height": 13,
+            "TextId": "__SingleUse_HZ26",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 19,
+              "Green": 202,
+              "Blue": 15
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_CO4J",
+              "UseBuffer": true,
+              "BufferSize": 30
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea6",
+            "X": 14,
+            "Y": 6,
+            "Width": 68,
+            "Height": 13,
+            "TextId": "__SingleUse_NW51",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton4",
+            "X": 1,
+            "Y": 71,
+            "Width": 95,
+            "Height": 27,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 95,
+                "Height": 27,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea7",
+            "X": 11,
+            "Y": 78,
+            "Width": 65,
+            "Height": 13,
+            "TextId": "__SingleUse_6FQ6",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton5",
+            "X": -1,
+            "Y": 114,
+            "Width": 110,
+            "Height": 28,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 110,
+                "Height": 28,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea8",
+            "X": 9,
+            "Y": 122,
+            "Width": 87,
+            "Height": 13,
+            "TextId": "__SingleUse_UGCS",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea9",
+            "X": 9,
+            "Y": 149,
+            "Width": 172,
+            "Height": 13,
+            "TextId": "__SingleUse_V0CG",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 196,
+              "Green": 20,
+              "Blue": 26
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "",
+              "Code": "//uint16_t progValue;\r\nST_PLC_Manage_Progress_Bar();\r\n//progValue = ST_PLC_Set_Progress();\r\n//boxProgress1.setValue(progValue);\r\n"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"STEVALPLC.h\"",
+              "Code": "ST_PLC_Set_HOME_Button_Actions();"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton2"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "ST_PLC_PerformSFLASHTest();"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton3"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "ST_PLC_PerformSRAMTest();"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton4"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen7"
+            }
+          },
+          {
+            "InteractionName": "Interaction7",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton5"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen5"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "action1"
+          }
+        ]
+      },
+      {
+        "Name": "Screen7",
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 226,
+            "Y": 199,
+            "Width": 60,
+            "Height": 25,
+            "TextId": "__SingleUse_KKWC",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 320,
+            "Height": 238,
+            "Color": {
+              "Red": 143,
+              "Green": 24
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 5,
+            "Y": 144,
+            "Width": 100,
+            "Height": 94,
+            "Pressed": "RGB_Circ.png",
+            "Released": "RGB_Circ.png",
+            "Clickable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 133,
+            "Y": 157,
+            "Width": 123,
+            "Height": 13,
+            "TextId": "__SingleUse_Q2VH",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 14,
+              "Green": 231,
+              "Blue": 39
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 212,
+            "Y": 186,
+            "Width": 89,
+            "Height": 38,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 89,
+                "Height": 38,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 226,
+            "Y": 193,
+            "Width": 55,
+            "Height": 25,
+            "TextId": "__SingleUse_1BYT",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include \"gt911.hpp\"",
+              "Code": "       extern GT911_Dev Dev_Now;\r\n        extern const unsigned char image_rgb_circ[];\r\n        static int toggleflag = 0;\r\n        \r\n        unsigned int lcdx,lcdy;\r\n        unsigned int lcdx1,lcdy1;\r\n        unsigned int delx,dely;\r\n        unsigned int lcdx2,lcdy2;\r\n        static unsigned int red, green, blue;\r\n        unsigned int lsb , msb;\r\n        \r\n        lcdx1 = (3*Dev_Now.X[0])/10;\r\n        lcdy1 = (2*Dev_Now.Y[0])/3;\r\n        \r\n        \r\n        do{\r\n                lcdx = (3*Dev_Now.X[0])/10;\r\n                lcdy = (2*Dev_Now.Y[0])/3;\r\n        HAL_Delay(10);\r\n        lcdx2 = (3*Dev_Now.X[0])/10;\r\n        lcdy2 = (2*Dev_Now.Y[0])/3;\r\n        \r\n        delx = lcdx2 - lcdx;\r\n        dely = lcdy2 - lcdy;\r\n        toggleflag++;\r\n        }while((delx <5) && (dely<5 ) && (toggleflag <=10));\r\n        \r\n        toggleflag = 0;\r\n        lcdx = lcdx1 - 144;\r\n        lcdy = lcdy1 - 5;\r\n        \r\n        lsb = image_rgb_circ[(lcdx*100 + lcdy)*2];\r\n        msb = image_rgb_circ[(lcdx*100 + lcdy)*2 + 1];\r\n        \r\n        blue = (lsb&0x8F);\r\n        green = ((msb&0x07)<<3) | ((lsb&0xE0)>>5);\r\n        red  = (msb&0xF8)>>3;\r\n         \r\n        blue = blue<<3;\r\n        green = green<<2;\r\n        red = red<<3;\r\n\r\n        box1.setColor(touchgfx::Color::getColorFrom24BitRGB(red,green,blue));\r\n        box1.invalidate();\r\n"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen6"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen8",
+        "Components": [
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 98,
+            "Y": 176,
+            "Width": 124,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 124,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 130,
+            "Y": 189,
+            "Width": 60,
+            "Height": 25,
+            "TextId": "__SingleUse_UYBX",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 31,
+            "Y": 95,
+            "Width": 271,
+            "Height": 25,
+            "TextId": "__SingleUse_ZVV5",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 241,
+              "Green": 15,
+              "Blue": 15
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen9",
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 91,
+            "Y": 9,
+            "Width": 138,
+            "Height": 25,
+            "TextId": "__SingleUse_3WSN",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 230,
+              "Green": 236,
+              "Blue": 237
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 117,
+            "Y": 191,
+            "Width": 86,
+            "Height": 37,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 86,
+                "Height": 37,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 130,
+            "Y": 197,
+            "Width": 60,
+            "Height": 25,
+            "TextId": "__SingleUse_2QJW",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton2",
+            "X": 216,
+            "Y": 191,
+            "Width": 33,
+            "Height": 37,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 33,
+                "Height": 37,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea8",
+            "X": 224,
+            "Y": 197,
+            "Width": 17,
+            "Height": 25,
+            "TextId": "__SingleUse_ERFQ",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea9",
+            "X": 15,
+            "Y": 55,
+            "Width": 261,
+            "Height": 65,
+            "TextId": "__SingleUse_7TRS",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 230,
+              "Green": 236,
+              "Blue": 237
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton3",
+            "X": 30,
+            "Y": 190,
+            "Width": 68,
+            "Height": 38,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 68,
+                "Height": 38,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea10",
+            "X": 39,
+            "Y": 197,
+            "Width": 51,
+            "Height": 25,
+            "TextId": "__SingleUse_LDKV",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen10"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton3"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen3"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen10",
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 105,
+            "Y": 7,
+            "Width": 111,
+            "Height": 25,
+            "TextId": "__SingleUse_9COT",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 230,
+              "Green": 236,
+              "Blue": 237
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 112,
+            "Y": 188,
+            "Width": 96,
+            "Height": 41,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 96,
+                "Height": 41,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 130,
+            "Y": 196,
+            "Width": 60,
+            "Height": 25,
+            "TextId": "__SingleUse_A7E4",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 15,
+            "Y": 55,
+            "Width": 266,
+            "Height": 65,
+            "TextId": "__SingleUse_MN7N",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 230,
+              "Green": 236,
+              "Blue": 237
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton2",
+            "X": 223,
+            "Y": 188,
+            "Width": 50,
+            "Height": 41,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 41,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton3",
+            "X": 45,
+            "Y": 188,
+            "Width": 50,
+            "Height": 41,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 41,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "X": 240,
+            "Y": 196,
+            "Width": 17,
+            "Height": 25,
+            "TextId": "__SingleUse_D5DB",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5",
+            "X": 62,
+            "Y": 196,
+            "Width": 17,
+            "Height": 25,
+            "TextId": "__SingleUse_YUZO",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen11"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton3"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen9"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen11",
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 101,
+            "Y": 9,
+            "Width": 118,
+            "Height": 25,
+            "TextId": "__SingleUse_9R1J",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 230,
+              "Green": 236,
+              "Blue": 237
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 110,
+            "Y": 197,
+            "Width": 75,
+            "Height": 34,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 75,
+                "Height": 34,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 117,
+            "Y": 202,
+            "Width": 60,
+            "Height": 25,
+            "TextId": "__SingleUse_BQN6",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 15,
+            "Y": 55,
+            "Width": 292,
+            "Height": 91,
+            "TextId": "__SingleUse_RPE3",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 230,
+              "Green": 236,
+              "Blue": 237
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton2",
+            "X": 206,
+            "Y": 197,
+            "Width": 50,
+            "Height": 34,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 34,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton3",
+            "X": 40,
+            "Y": 197,
+            "Width": 50,
+            "Height": 34,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 34,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "X": 223,
+            "Y": 202,
+            "Width": 17,
+            "Height": 25,
+            "TextId": "__SingleUse_FN3L",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5",
+            "X": 57,
+            "Y": 202,
+            "Width": 17,
+            "Height": 25,
+            "TextId": "__SingleUse_L3KW",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen12"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton3"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen10"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen12",
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 101,
+            "Y": 6,
+            "Width": 118,
+            "Height": 25,
+            "TextId": "__SingleUse_Y0OT",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 230,
+              "Green": 236,
+              "Blue": 237
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 115,
+            "Y": 187,
+            "Width": 90,
+            "Height": 39,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 90,
+                "Height": 39,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 130,
+            "Y": 194,
+            "Width": 60,
+            "Height": 25,
+            "TextId": "__SingleUse_FWB4",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 15,
+            "Y": 55,
+            "Width": 244,
+            "Height": 117,
+            "TextId": "__SingleUse_NNRN",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 230,
+              "Green": 236,
+              "Blue": 237
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton2",
+            "X": 219,
+            "Y": 187,
+            "Width": 50,
+            "Height": 39,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 39,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton3",
+            "X": 41,
+            "Y": 187,
+            "Width": 50,
+            "Height": 39,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 39,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "X": 236,
+            "Y": 194,
+            "Width": 17,
+            "Height": 25,
+            "TextId": "__SingleUse_A0NV",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5",
+            "X": 58,
+            "Y": 194,
+            "Width": 17,
+            "Height": 25,
+            "TextId": "__SingleUse_LUS1",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen13"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton3"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen11"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen13",
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 112,
+            "Y": 13,
+            "Width": 96,
+            "Height": 25,
+            "TextId": "__SingleUse_DLV7",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 230,
+              "Green": 236,
+              "Blue": 237
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 112,
+            "Y": 200,
+            "Width": 78,
+            "Height": 30,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 78,
+                "Height": 30,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 121,
+            "Y": 203,
+            "Width": 60,
+            "Height": 25,
+            "TextId": "__SingleUse_4YFI",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 15,
+            "Y": 55,
+            "Width": 227,
+            "Height": 104,
+            "TextId": "__SingleUse_M5NC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 230,
+              "Green": 236,
+              "Blue": 237
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton2",
+            "X": 41,
+            "Y": 200,
+            "Width": 50,
+            "Height": 30,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 30,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "X": 58,
+            "Y": 200,
+            "Width": 17,
+            "Height": 25,
+            "TextId": "__SingleUse_EYR8",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen12"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen14",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "X": 44,
+            "Y": 24,
+            "Width": 233,
+            "Height": 164,
+            "Filename": "ladder.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 118,
+            "Y": 200,
+            "Width": 84,
+            "Height": 36,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 84,
+                "Height": 36,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 130,
+            "Y": 206,
+            "Width": 60,
+            "Height": 25,
+            "TextId": "__SingleUse_G6GT",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen15",
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 15,
+            "Y": 108,
+            "Width": 291,
+            "Height": 25,
+            "TextId": "__SingleUse_6SH8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 185,
+              "Green": 194,
+              "Blue": 19
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 117,
+            "Y": 196,
+            "Width": 88,
+            "Height": 36,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 88,
+                "Height": 36,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 130,
+            "Y": 201,
+            "Width": 60,
+            "Height": 25,
+            "TextId": "__SingleUse_V8NV",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "PLCLCD",
+    "Resolution": {
+      "Width": 320,
+      "Height": 240
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 320,
+        "Height": 240
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../PLCLCD.ioc --platform=m7",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7"
+  },
+  "Version": "4.18.1"
+}
